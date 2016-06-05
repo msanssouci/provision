@@ -1,3 +1,6 @@
+sudo add-apt-repository -y --force-yes ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install -y --force-yes oracle-java8-installer
 sudo apt-get -y install thinkfan powertop
 sudo apt-get -y install tlp tlp-rdw acpi-call-dkms
 sudo apt-get -y install vagrant
@@ -9,4 +12,4 @@ sudo apt-get -y install gradle
 sudo apt-get -y install nodejs
 sudo apt-get -y install npm
 sudo apt-get -y install launchy
-#sudo apt-get -y install
+sudo apt-get -y install docker
