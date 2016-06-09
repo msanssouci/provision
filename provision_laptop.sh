@@ -1,3 +1,4 @@
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sudo add-apt-repository -y --force-yes ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install -y --force-yes oracle-java8-installer
@@ -13,3 +14,6 @@ sudo apt-get -y install nodejs
 sudo apt-get -y install npm
 sudo apt-get -y install launchy
 sudo apt-get -y install docker
+sudo apt update
+sudo apt install python3-dev python3-pip
+sudo -H pip3 install thefuck
