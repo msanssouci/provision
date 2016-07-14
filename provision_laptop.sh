@@ -14,6 +14,11 @@ sudo apt-get -y install nodejs
 sudo apt-get -y install npm
 sudo apt-get -y install launchy
 sudo apt-get -y install docker
+sudo apt-get -y install unity-tweak-tool
 sudo apt update
-sudo apt install python3-dev python3-pip
+sudo apt -y install python3-dev python3-pip
 sudo -H pip3 install thefuck
+# system monitor widget
+sudo add-apt-repository ppa:indicator-multiload/stable-daily
+sudo apt-get update
+sudo apt-get install indicator-multiload
